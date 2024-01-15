@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700;900&family=Mulish:wght@400;500;700&family=Open+Sans:wght@400;500;700;800&family=Work+Sans:wght@400;500;600;700&display=swap');
+
+*{
+    font-family: 'Merriweather', serif;
+    font-family: 'Mulish', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+    margin:0;
+    padding:0;
+}
+
+body{
+    max-width: 1400px;
+    padding: 40px 200px;
+}
+/* header:nav-section */
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+}
+.logo-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;   
+}
+.logo-section h1{
+    font-size: 2.5rem;   
+    font-weight: 800;
+}
+.special{
+    color: #FF5400;
+}
+.menu-section .menu-item ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.menu-item ul li{
+    list-style-type: none;
+    font-size: 1.5rem; 
+    
+}
+.menu-item ul li a{
+    color:#424247;
+    font-weight: 400;
+    text-decoration: none;
+}
+/* header: Banner section style */
+
+.banner-container{
+    background-image:linear-gradient(to top, rgba(0,0,0,0.1),rgba(0,0,0,0.8)),url('Images/banner.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    border-radius: 10px;
+}
+.banner-text{
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 50px;
+}
+.banner-text h1{
+    font-size: 4rem;
+    color:#FFF;
+    font-weight: 800;
+    font-style: normal;
+    text-align: center;
+    margin: 50px 0;
+}
+.banner-text p{
+    color: #FFF;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+}
+.banner-input{
+    width: 800px;
+    margin: 0 auto;
+    padding: 20px; 
+    border-radius: 8px;
+    color:#FFF;
+    box-shadow: 0px 4px 30px 0px rgba(234, 229, 229, 0.944);
+    opacity: 1.5; 
+}
+.input-text{
+    outline: none;
+    border-radius: 8px;
+    padding:20px 20px;
+    margin-left:50px;
+    width: 20%;
+}
+.select-option{
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    padding:20px 20px;
+    margin:0;
+    width: 20%;
+}
+.btn-primary{
+    background-color:#FF5400;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    padding:20px 20px;
+    margin:0;
+    width: 20%; 
+}
+.btn-primary a{
+    text-decoration: none;
+    color:#FFF;
+    font-size: 15px;
+}
+    /* border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+    padding: 20px;
+    margin-bottom: 20px; 
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    
+    
+    */
