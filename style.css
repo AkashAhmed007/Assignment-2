@@ -55,6 +55,7 @@ body{
     background-size: cover;
     height: 600px;
     border-radius: 10px;
+    margin-bottom: 50px;
 }
 .banner-text{
     max-width: 800px;
@@ -113,13 +114,23 @@ body{
     color:#FFF;
     font-size: 15px;
 }
-    /* border-radius: 8px;
-    background: #FFF;
-    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
-    padding: 20px;
-    margin-bottom: 20px; 
-    border-radius: 8px;
-    background: rgba(255, 255, 255, 0.30);
-    
-    
-    */
+/* popular-tour-container style */
+.popular-tour-container{
+    display: flex;
+}
+.popular-text-description h2{
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+.popular-text-description ul li{
+    color: #131318b3;
+    font-weight:500;
+    margin: 20px;
+    padding: 10px;
+}
+.popular-text-description p{
+    font-weight:500;
+    margin-bottom: 20px;
+
+}
