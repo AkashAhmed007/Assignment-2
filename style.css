@@ -13,6 +13,7 @@ body{
     max-width: 1400px;
     padding: 40px 200px;
 }
+
 /* header:nav-section */
 .nav-container{
     display: flex;
@@ -47,8 +48,8 @@ body{
     font-weight: 400;
     text-decoration: none;
 }
-/* header: Banner section style */
 
+/* header: Banner section style */
 .banner-container{
     background-image:linear-gradient(to top, rgba(0,0,0,0.1),rgba(0,0,0,0.8)),url('Images/banner.png');
     background-repeat: no-repeat;
@@ -114,6 +115,7 @@ body{
     color:#FFF;
     font-size: 15px;
 }
+
 /* popular-tour-container style */
 .popular-tour-container{
     display: flex;
@@ -137,7 +139,7 @@ body{
 }
 /* destination section style */
 .destination-container{
-    border: 1px solid red;
+    margin: 50px 0;
 }
 .destination-text{
     max-width: 800px;
@@ -163,7 +165,7 @@ body{
     width: 100%;
 }
 .img-1{
-    grid-column: 1/span 6;
+    grid-column: 1/span 6;  
 }
 .img-2{
     grid-column: 7/span 6;
@@ -183,3 +185,5 @@ body{
 .img-7{
     grid-column: 6/span 7;
 }
+
+
