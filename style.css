@@ -479,3 +479,41 @@ footer{
     }
     
 }
+
+/* Responsive for larger device*/
+
+@media screen and (min-width:601px) and (max-width:992px) {
+
+    header{
+        min-width: 992px;
+    }
+    main{
+        min-width: 992px;
+    }
+    .menubar-icon{
+        display: none;
+        
+    }
+    .menu-section .menu-item ul{
+        display: flex;
+        margin-top: 20px;
+    }
+    .combined-section{
+        display: grid;
+        grid-template-columns: repeat(12,1fr);
+        grid-template-rows: repeat(2,1fr);
+    }
+    .combined-section img{
+        margin-bottom: 10px;
+    }
+    .hotel-section{
+        grid-column: 3/span 9;
+    }
+    .pathway-section{
+        grid-column: 3/span 9;
+    } 
+    .sale-section{
+        grid-column: 3/span 9;
+    }
+   
+}
