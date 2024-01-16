@@ -30,6 +30,9 @@ header{
 .special{
     color: #FF5400;
 }
+.menubar-icon{
+    display: none;
+}
 .menu-section .menu-item ul{
     display: flex;
     justify-content: center;
@@ -39,7 +42,6 @@ header{
 .menu-item ul li{
     list-style-type: none;
     font-size: 1.5rem; 
-    
 }
 .menu-item ul li a{
     color:#424247;
@@ -82,7 +84,6 @@ header{
     border-radius: 8px;
     background-color: rgba(255, 255, 255,0.2);
     opacity: 0.9;
-    /* box-shadow: 0px 0px 10px 0px rgb(244, 231, 231); */
 }
 .input-text{
     border: none;
@@ -303,7 +304,6 @@ main{
     border-radius: 20px;
     padding: 50px;
     margin: 0 10px;
-    width: 100%;
 }
 .news-field h3{
     font-size: 1.5rem;
@@ -343,6 +343,9 @@ main{
     font-weight: 800;
     text-decoration: none;  
 }
+.news-image img{
+    width: 100%;
+}
 /* footer section styles */
 footer{
     background-color: #1313180d;
@@ -375,7 +378,104 @@ footer{
 .footer-end-description{
     color:#5A5A5D;
     text-align: center;
-    width: 600px;
     margin: 0 auto;
     padding-top: 50px;
+}
+
+/* Responsive for mobile device */
+
+@media screen and (max-width:600px) {
+    header{
+        padding:20px;
+    }
+    .logo-section h1{
+        font-size: 1.5rem;   
+        font-weight: 800;
+    }
+    .menubar-icon{
+        display: block;
+        margin-top: 20px;
+    }
+    .menu-section .menu-item ul{
+        display: none;
+    }
+    .banner-container{
+        background-position: center;  
+    }
+    .banner-input{
+        width: 100%;
+        margin-left: 20px;
+        
+    }
+    .input-text{
+       width: 80%;
+       margin: 10px auto;
+       box-sizing: border-box;
+    }
+    .select-option{
+        width: 80%;
+        margin: 10px auto;
+    }
+    .btn-primary{
+        width: 80%;
+        margin: 10px auto;
+    }
+    main{
+        max-width: 600px;
+        padding: 20px;
+    }
+    .popular-tour-container{
+        flex-direction: column;
+    }
+    .popular-text-description button{
+        width: 50%;
+    }
+    .destination-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .image-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .choice-section p{
+        width: 400px;
+    }
+    .hotel-section{
+        width: 80%;
+    }
+    .pathway-section{
+        width: 80%;
+    }
+    .sale-section{
+        width: 80%; 
+    }
+    .combined-section{
+        display: flex;
+        flex-direction: column;
+    }
+    .perfect-place-section{
+        flex-direction: column;
+    }
+    .text-description{
+        width: 100%;
+    }
+    .video{
+        width: 100%;
+    }
+    .newsletter-container{
+        flex-direction: column;
+    }
+    footer{
+       padding: 50px;
+    }
+    .footer-description{
+        width: 300px;
+        text-align: center;
+    }
+    .footer-end-description{
+        text-align: center;
+        padding: 20px;
+    }
+    
 }
