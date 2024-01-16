@@ -265,6 +265,7 @@ body{
     justify-content: center;
     align-items: center;
     gap: 30px;
+    margin-bottom: 70px;
 }
 .text-description{
     width: 50%;
@@ -287,4 +288,55 @@ body{
     font-weight: 700;
     padding: 10px;
     margin-bottom: 20px;
+}
+/* Newsletter section styles */
+.newsletter-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.news-field{
+    border: 1px solid #FF5400; 
+    border-radius: 20px;
+    padding: 50px;
+    margin: 0 10px;
+    width: 100%;
+}
+.news-field h3{
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+.news-field p{
+    color: #5A5A5D;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.news-field hr{
+    margin-bottom: 20px;
+}
+.input-field input{
+    font-size: 20px;
+    width: 100%;
+    padding: 15px;
+    margin-bottom:20px;
+    background-color: #1313180d;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+.input-field button{
+    background-color: #FF5400;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    width: 100%;
+    padding: 20px;
+}
+.input-field button a{
+    color: #FFF;
+    font-size: 1.5rem;
+    font-weight: 800;
+    text-decoration: none;  
 }
