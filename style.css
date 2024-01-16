@@ -54,7 +54,7 @@ body{
     background-image:linear-gradient(to top, rgba(0,0,0,0.1),rgba(0,0,0,0.8)),url('Images/banner.png');
     background-repeat: no-repeat;
     background-size: cover;
-    height: 600px;
+    min-height: 600px;
     border-radius: 10px;
     margin-bottom: 50px;
 }
@@ -185,5 +185,76 @@ body{
 .img-7{
     grid-column: 6/span 7;
 }
+/* Why choose section styles */
 
+.choice-section{
+    margin: 50px 0;
+}
+.choice-section h1{
+    font-size: 2.5rem;
+    padding: 20px;
+    text-align: center;
+}
+.choice-section p{
+    color: #131318b3;
+    text-align: center;
+    width: 700px;
+    margin: 0 auto;
+}
 
+.hotel-section{
+    background-color: rgb(240, 229, 215);
+    width: 500px;
+    padding: 50px;
+    border-radius: 20px;
+}
+.hotel-section h3{
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+.hotel-section p{
+    color: #424247;
+    font-weight: 400;
+}
+.pathway-section{
+    background-color: rgb(216, 248, 255);
+    width: 500px;
+    padding: 50px;
+    border-radius: 20px;
+}
+.pathway-section h3{
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+.pathway-section p{
+    color: #424247;
+    font-weight: 400;
+}
+.sale-section{
+    background-color: rgb(255, 231, 234);
+    width: 500px;
+    padding: 50px;
+    border-radius: 20px;
+}
+.sale-section h3{
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+.combined-section{
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    grid-template-rows: repeat(2,1fr);
+    gap:20px; 
+}
+.combined-section img{
+    margin-bottom: 10px;
+}
+.hotel-section{
+    grid-column: 1/span 6;
+}
+.pathway-section{
+    grid-column: 7/span 6;
+} 
+.sale-section{
+    grid-column: 4/span 9;
+}
